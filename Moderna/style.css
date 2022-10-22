@@ -1,0 +1,431 @@
+*{
+	margin:0px;
+	padding: 0;
+}
+.container{
+	margin:auto;
+	width:85%;
+}
+#body{
+	background-image:url('./img/modern.jpg');
+	background-size:100%;
+	height:600px;
+	background-attachment:scroll;
+	background-repeat:no-repeat;
+	background-color:#1e4356;
+}
+
+#body:hover{
+	opacity:0.9;
+	transition:1s ease;
+}
+.menu{
+	
+	height:auto;
+	display: flex;
+	justify-content: space-between;	
+	background-color: transparent; 
+	color:white;
+}
+
+header{
+	background-color:#1e4356;
+	width:100%;
+	height:auto;
+	position:sticky;
+	top:0;
+	}
+
+.title{
+	width: 30%;
+}
+.title h2{
+	font-family:"Open Sans", sans-serif;
+	font-size: 28px;
+    margin: 20px 10px;
+    padding: 4px 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 2px;
+	cursor:pointer;
+    text-transform: uppercase;
+}
+
+
+.title h2:hover{
+	
+	color:#6eabbd;
+}
+.navbar{
+	margin-top:20px;
+	width: 60%;
+	margin-right:5px;
+}
+.nav_list li a{
+	text-decoration: none;
+	color: white;
+	font-family:"Open Sans", sans-serif;
+}
+.nav_list li a:hover{
+	color:#6eabbd;
+	
+}
+.nav_list{
+	padding-top:10px;
+	display: flex ;
+	justify-content: space-between;
+	color:white;
+	list-style: none;
+	font-size:15px;
+}
+.home{
+	
+	text-align:center;
+	color:white;
+	margin-top:70px;
+}
+.home h2{
+	font-size:50px;
+	font-family: "Roboto", sans-serif;
+}
+.home p{
+	font-size:20px;
+	font-family:"Open Sans", sans-serif;
+	
+}
+button{
+	margin-bottom:10px;
+	margin-top:30px;
+	background-color:transparent;
+	border-color:#0e7ca7;
+	border-radius:50px;
+	border-width:thin;
+}	
+
+button:hover{
+	cursor:pointer;
+	background-color:#0e7ca7;
+}
+button .btn{
+	font-size:12px;
+	margin:10px;
+	font-weight:15px;
+	font-family: "Roboto", sans-serif;
+	color:white;
+}
+
+/* next section is ABOUT, these properties are given below*/
+
+
+
+.description{
+	display:flex;
+	padding:100px 0 100px 0;
+	line-height: 30px;
+	font-family: "Roboto", sans-serif;
+	font-size:15px;
+}
+.description p{
+	color:#515452;
+}
+
+.about1{
+    padding: 30px;
+    position: relative;
+	text-align: center;
+	background: #fff;
+	border: 1px solid #fff;
+	margin:0 15px;
+    overflow: hidden;    
+    box-shadow: 0 5px 28px rgb(68 88 144 / 14%);
+	transition: all 0.5s ease-in-out;
+    
+}
+.about1:hover{
+	border-color:orange;
+	background-color:#F8F4BE;
+}
+.about2{
+	padding:30px;
+	position:relative;
+	text-align:center;
+	background:#fff;
+	border: 1px dashed #fff;
+	margin:0 15px;
+	box-shadow: 0 5px 28px rgb(68 88 144 / 14%);
+	transition: all 0.5s ease-in-out;
+}
+.about2:hover{
+	border-color:green;
+	background-color:#DFF8BE;
+}
+.about3{
+	padding:30px;
+	position:relative;
+	text-align:center;
+	background:#fff;
+	border:1px dotted #fff;
+	margin:0 15px;
+	box-shadow: 0 5px 28px rgb(68 88 144 / 14%);
+	transition:all 0.5s ease-in-out;
+}
+.about3:hover{
+	border-color:#F93E8B;
+	background-color:#FBE6F6;
+}
+.about4{
+	padding:30px;
+	position:relative;
+	text-align:center;
+	background:#fff;
+	border:1px solid #fff;
+	margin:0 15px;
+	box-shadow: 0 5px 28px 0 rgb(68 88 144 / 14%);
+	transition:all 0.5s ease-in-out;
+}
+.about4:hover{
+	border-color:blue;
+	background-color:#DFEFF9;
+}
+
+/*next section is SERVICE,these properties are given below*/
+
+.loremnemo{
+	background-color:white;
+	padding:60px 0;
+}
+
+.loremnemo:hover{
+		background-color:#F1E872;
+		transition:all 0.8s ease-in-out;
+}
+
+.aa{
+	border:5px dashed white;
+	display:flex;
+	justify-content:space-between;
+}
+
+.videoplayer{
+	width:90%;
+	height:auto;
+	padding:15px;
+}
+
+.aa1{
+	color:red;
+	font-family: "Roboto", sans-serif;
+	width:1000px;
+	margin-right:10px;
+	padding:15px;
+	margin-top:80px;
+}
+
+.aa2{
+	display:flex;
+	
+}
+.aa3{
+	display:flex;
+	margin-top:40px;
+}
+
+.content1{
+	margin-left:20px;
+}
+.content2{
+	margin-left:20px;
+	
+}
+
+.pad1{
+	border-radius:10px;
+	padding:15px;
+	border:3px solid transparent;
+	
+}
+.pad1:hover{
+	border-color:white;
+	transition:all 0.8s ease-in-out;
+}
+
+.pad2{
+	border-radius:10px;
+	padding:18px;
+	border:3px dotted transparent;
+	
+}
+.pad2:hover{
+	border-color:white;
+	transition:all 0.8s ease-in-out;
+}
+
+
+
+.flex1{
+	display:flex;
+}
+
+.aa h3{
+	cursor:pointer;
+}
+.aa p{
+	color:#515452;
+}
+
+.aa h3:hover{
+	color:white;
+	transition:all 1s ease-in-out;
+}
+
+/*Features*/
+
+
+.section-3{
+	background-image: linear-gradient(#A57ED8, #fff);
+	margin-top:30px;
+	font-family: "Roboto", sans-serif;
+}
+
+.about{
+	text-align:center;
+}
+.features h4{
+	padding: 30px 0;
+	font-size: 25px;
+}
+.features p{
+
+}
+.about-1{
+	margin-top:30px;
+	display:flex;
+	padding-top:30px;
+	padding-bottom:30px;
+	border:1px solid black;
+}
+.des-1{
+	padding:60px 30px 0px 30px;
+}
+iconify-icon{
+	font-size: 10px;
+	color: blue;
+}
+
+.about-2{
+	margin-top:30px;
+	display:flex;
+	padding-top:30px;
+	padding-bottom:30px;
+	border:1px solid black;
+}
+.des-2{
+	padding:60px 30px 0px 30px;
+}
+
+.about-3{
+	margin-top:30px;
+	display:flex;
+	padding-top:30px;
+	padding-bottom:30px;
+	border:1px solid black;
+}
+.des-3{
+	padding:60px 30px 0px 30px;
+}
+.about-4{
+	margin-top:30px;
+	display:flex;
+	padding-top:30px;
+	padding-bottom:30px;
+	border:1px solid black;
+}
+.des-4{
+	padding:60px 30px 0px 30px;
+}
+
+.section-4{
+	background-color: #0d2735;
+	height: 100vh;
+	color: white;
+	padding-top: 20px;
+	margin: 20px 0px;
+}
+.footer-section{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+
+
+#footer-section{
+	width: 100%;
+	height: 55vh;
+	margin-top: 10vh;
+	padding-top: 1vh;
+}
+.footer-section-1{
+	display:flex;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+.footer-sec1{
+	padding: 10px;
+	width: 16%;
+}
+.footer-sec1 h5{
+	padding-bottom: 15px;
+	font-size: 20px;
+}
+.footer-sec2{
+	width: 16%;
+	line-height: 40px;
+}
+.footer-sec2 h5{
+	font-size: 20px;
+}
+.footer-sec2 iconify-icon{
+	color: #ffc107;
+}
+.footer-sec2 li{
+	padding-left: 5px;
+	list-style-type: none;
+}
+
+.footer-sec3{
+	width: 16%;
+	line-height: 40px;
+}
+.footer-sec3 h5{
+	font-size: 20px;
+}
+.footer-sec3 iconify-icon{
+	color: #ffc107;
+}
+.footer-sec3 li{
+	padding-left: 5px;
+	list-style-type: none;
+}
+
+.footer-sec4{
+	width: 35%;
+	padding-left: 20px;
+}
+.footer-sec4 h5{
+	padding-top: 10px;
+	font-size: 20px;
+}
+.footer-sec4 p{
+	padding-top: 20px;
+} 
+
+.footer-section-1 h5{
+	color: red;
+}
+footer{
+	text-align: center;
+	padding-top: 30px;
+}
+footer span {
+	color: orange;
+}
